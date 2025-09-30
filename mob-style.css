@@ -1,0 +1,36 @@
+/* Mobile Styling */
+      @media all  and (max-width:400px) {
+
+        header{
+          /* background-color: red; */
+        justify-content: center;
+        }
+        header .logo h1{
+          /* display: block; */
+          display: flex;
+        justify-content: center;
+        }
+        header nav{
+          display: flex;
+          justify-content: center;
+        }
+        header nav ul li a{
+          font-size: 10px;
+          display: block;
+          width: 60px;
+          text-align: center;
+        }
+        main .container {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+        .orange img{
+          width: 30px;
+          height: 30px;
+          /* background-color: #fff;   */
+        }
+        footer{
+          font-size: 10px;
+        }
+      }
+    
